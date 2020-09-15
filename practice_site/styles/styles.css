@@ -1,0 +1,117 @@
+#bk-materials {
+  background-color: navy;
+  width: 100%;
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+#bk-crosses {
+  background-color: grey;
+  width: 100%;
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+body div #spanish_welcome p, body div #italian_welcome p, body div #nigerian_welcome p, body div #french_welcome p, body div #german_welcome p, body div #uk_welcome p {
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  border: 1px solid;
+  border-color: black;
+}
+body div #spanish_welcome p img, body div #italian_welcome p img, body div #nigerian_welcome p img, body div #french_welcome p img, body div #german_welcome p img, body div #uk_welcome p img {
+  align-items: center;
+  border: black;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+body div #uk_welcome p {
+  color: white;
+  background-color: red;
+}
+body div #german_welcome p {
+  color: black;
+  background-color: yellow;
+}
+body div #french_welcome p {
+  color: white;
+  background-color: blue;
+}
+body div #nigerian_welcome p {
+  color: white;
+  background-color: green;
+}
+body div #italian_welcome p {
+  color: red;
+  background-color: green;
+}
+body div #spanish_welcome p {
+  color: red;
+  background-color: yellow;
+}
+
+body {
+  border: none;
+  color: black;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+body p {
+  color: black;
+}
+
+img {
+  width: 245px;
+  height: 320px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+/*
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+*/
+/*
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%
+  opacity: 50;
+  transition: .5s ease;
+  background-color: green
+}
+*/
+.container hover .overlay {
+  opacity: 1;
+}
+.container img.meme {
+  display: block;
+  height: 75%;
+  width: auto;
+  text-align: center;
+  /*vertical-align: middle;*/
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    width: 100%;
+    float: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

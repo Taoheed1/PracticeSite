@@ -1,0 +1,44 @@
+@import './_bkCovers';
+@import './welcome';
+
+body {
+  border: none;
+  color: black;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+ body p {
+  color: black;
+}
+
+
+img {
+  width: 245px;
+  height: 320px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.container {
+  hover .overlay{
+  opacity: 1
+  }
+
+  img.meme{
+    display: block;
+    height: 75%;
+    width: auto;
+    text-align: center;
+  } 
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    width: 100%;
+    float: none;
+  }
+}

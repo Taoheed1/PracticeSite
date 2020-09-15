@@ -1,0 +1,17 @@
+
+@mixin bookBanner($background, $color) {
+    background-color: $background;
+    width: 100%;
+    color: $color;
+    background-size: cover;
+    text-align: center;
+}
+
+
+#bk-materials {
+    @include bookBanner(navy, white)
+}
+
+#bk-crosses{
+    @include bookBanner(grey, white)
+}

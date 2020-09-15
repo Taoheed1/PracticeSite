@@ -1,0 +1,54 @@
+%welcome_img {
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+  
+    img {
+        align-items: center;
+        border: black;
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+}
+
+body div {
+
+ #uk_welcome p {
+    @extend %welcome_img;
+    color: white;
+    background-color: red;
+    }
+
+ #german_welcome p {
+    @extend %welcome_img;
+    color: black;
+    background-color: yellow;
+    }
+
+ #french_welcome p{
+    @extend %welcome_img;
+    color: white;
+    background-color: blue;
+    }
+
+ #nigerian_welcome p {
+    @extend %welcome_img;
+    color: white;
+    background-color: green;
+    }
+
+ #italian_welcome p {
+    @extend %welcome_img;
+    color: red;
+    background-color: green;
+    }
+
+#spanish_welcome p {
+    @extend %welcome_img;
+    color: red;
+    background-color: yellow;
+    }
+}
